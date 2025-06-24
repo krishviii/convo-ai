@@ -6,16 +6,14 @@ import {
   IconBrandTabler,
   IconMessage,
   IconSettings,
-  IconTimeDuration15,
   IconUserBolt,
 } from "@tabler/icons-react";
 import { motion } from "motion/react";
 import { cn } from "../../lib/utils";
 import { Sidebar, SidebarBody, SidebarLink } from "../../components/Navbar";
 import ThemeToggle from "../../components/ThemeToggle/ThemeToggle";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart } from "recharts";
-import { BarChart, Bar } from "recharts";
-import { PieChart, Pie, Cell } from "recharts";
+ 
+
 // import { DoughnutChart, Doughnut } from "recharts";
 
 export const Layout: React.FC<{title:string, children: ReactNode }> = ({title, children })=> {
