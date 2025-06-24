@@ -50,10 +50,7 @@ const Dashboard = () => {
     { name: "Incorrect", value: 15 },
   ];
 
-  const failedResponsesData = [
-    { name: "Success", value: 90 },
-    { name: "Failure", value: 10 },
-  ];
+   
 
   const radarData = [
     { subject: "Accuracy", A: 120, fullMark: 150 },

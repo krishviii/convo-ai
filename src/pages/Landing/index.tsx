@@ -1,27 +1,13 @@
-import React from 'react'
-
 import { AuroraBackground } from '../../components/ui/aurora-background';
 import { motion } from "motion/react";
 import { HeroParallax } from '../../components/ui/hero-parallax';
 import { useNavigate } from 'react-router-dom';
-import { BackgroundBeams } from '../../components/ui/backgroung-beems';
-type Props = {}
+ 
 
-const Landing = (props: Props) => {
+const Landing = () => {
   const navigate = useNavigate();
     // Sample data for the chart
-  const data = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
-    datasets: [
-      {
-        label: 'AI Chat Sessions',
-        data: [65, 59, 80, 81, 56, 55],
-        borderColor: 'rgb(75, 192, 192)',
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-        tension: 0.1,
-      },
-    ],
-  };
+ 
 
   const products = [
   { 

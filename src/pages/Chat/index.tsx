@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Layout } from "../../components/Layout";
-import { IconCloudComputingFilled, IconMessageUser, IconMicrophone, IconPlus, IconSend2, IconUser, IconUserHexagon } from "@tabler/icons-react";
+import { IconMessageUser, IconMicrophone, IconPlus, IconSend2,  IconUserHexagon } from "@tabler/icons-react";
 
 const initialMessages = [
   { id: 1, sender: "bot", text: "Hello! How can I assist you today?", reactions: [], time: "3:00 PM" },
@@ -33,7 +33,7 @@ const ChatPage: React.FC = () => {
   const [chats, setChats] = useState(initialChats);
   const [search, setSearch] = useState("");
   const [selectedChatId, setSelectedChatId] = useState(1);
-  const [dark, setDark] = useState(false);
+  const [dark] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
